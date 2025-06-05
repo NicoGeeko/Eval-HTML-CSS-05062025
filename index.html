@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    
+ <!-- Lien pour fichier CSS -->
+ <link rel="stylesheet" href="./css/style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header>
+    <img src="./images/Digital_Student_Logo_Wht.svg" alt="logo Digital Student">
+    <p id="logoText">Digital Student</p>
+</header>
+
+<div id="mainContainer">
+
+    <div id="section1" class="mainSections">
+
+        <div class="titles">
+        <h2>Introduction</h2>
+        </div>
+
+        <div class="illustration">
+            <img src="./images/digital-art-style-illustration-graphic-designer_LIGHT.jpg" alt="illustration d'un webdesigner de dos devant son bureau">
+        </div>
+    
+    
+        <div class="currentText">
+
+            <p>Le but de ce guide est de vous convaincre rapidement de l’importance et de la place particulière du HTML et du CSS parmi l’ensemble des langages informatiques.
+                Nous allons également nous intéresser à la question « pourquoi apprendre à coder » et passer en revue les alternatives existantes à l’apprentissage de la programmation en soulignant les points forts et faibles de chacune d’entre elles.</p>
+
+         </div>
+
+        </div>
+
+        <div id="section2" class="mainSections">
+
+        <div class="titles">
+        <h2>Pourquoi apprendre HTML/CSS ?</h2>
+        </div>
+
+        <div class="illustration">
+            <img src="./images/HTML_CSS_Illustration.jpg" alt="photo d'un webdesigner  devant son bureau">
+        </div>
+    
+    
+        <div class="currentText">
+
+            <p>Apprendre les langages HTML et CSS est fondamental pour toute personne souhaitant s'initier au développement web. Ces technologies constituent la base de la création de sites internet, permettant de structurer et de styliser des pages web. En maîtrisant ces outils, vous posez les fondations nécessaires pour explorer des concepts plus avancés en programmation web, comme l'utilisation d'interfaces dynamiques avec JavaScript ou la gestion de bases de données.</p>
+
+         </div>
+
+        </div>
+
+        <div id="section3" class="mainSectionsTab" >
+
+        <div class="titles">
+        <h2>Les balises de base</h2>
+        </div>
+ <table>
+        <thead>
+            <tr>
+                <th>Balises</th>
+                <th>Explication</th>
+                <th>Exemple</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><pre><code>&lt;h1&gt;</code></pre></td>
+                <td> Utilisé pour intégrer le titre principal</td>
+                <td><img src="./images/exemple H1.jpg"></td>
+            </tr>
+            <tr>
+                <td><pre><code>&lt;p&gt;</code></pre></td>
+                <td> Utilisé pour intégrer un paragraphe</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><pre><code>&lt;a&gt;</code></pre></td>
+                <td> Utilisé pour intégrer un lien</td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td><pre><code>&lt;img&gt;</code></pre></td>
+                <td> Utilisé pour intégrer une image</td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td><pre><code>&lt;ul&gt;</code></pre></td>
+                <td> Utilisé pour intégrer une liste sans ordre</td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td><pre><code>&lt;li&gt;</code></pre></td>
+                <td> Utilisé pour intégrer un élement d'une liste</td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+
+
+
+    </div>
+
+            <div id="section4" class="mainSections">
+
+        <div class="titles">
+        <h2>Tips & bonnes pratiques</h2>
+        </div>
+
+        <div class="illustration">
+            <img src="./images/Wavy_Tech-29_Single-03.jpg" alt="illustration représentant un magicien du code">
+        </div>
+    
+    
+        <div class="currentText">
+
+            <p>Pour optimiser ses pages HTML et CSS il est souvent très utile de prendre du temps avant de commencer à coder. "Perdre du temps" pour définir les noms des classes des identifiants peut en faire gagner par la suite. Penser à poser les bases du fichier css avec la notion de "root" et ses données constituées de variables est un réel gain de temps si l'on doit par exemple changer les couleurs d'une charte graphique sur de nombreuses pages.</p>
+
+         </div>
+
+    </div>
+
+    <div id="section5"  >
+
+        <fieldset>
+    <legend>Vous avez une question ? </legend>
+
+        <form method="POST" action="">
+            <label for="prenom">Prénom :</label>
+            <input type="text" name="prenom" placeholder="Ex: Nicolas" maxlength="20" minlength="2" id="prenom">
+            <br>
+            <label for="email">Email :</label>
+            <input type="email" name="email" placeholder="Ex: sabatinonicolas@gmail.com" id="email">
+            <br>
+            <label for="titleForm">Laissez un commentaire:</label>
+            <br>
+            <textarea placeholder="" rows="10" cols="70" id="titleForm"> </textarea>
+            <br>
+            <input type="checkbox" id="checkbox"/> <label for="checkbox">Je souhaite recevoir la newsletter</label>
+            <br>
+            <input class="buttonForm" type="submit" value="Envoyer"/>
+            <input class="buttonForm" type="reset" value="Effacer"/>
+
+    </form>
+
+        </fieldset>
+    </div>
+    </div>
+
+<footer>
+    <a href="#section1">Introduction</a>
+    <a href="#section2">Pourquoi apprendre HTML/CSS ?</a>
+    <a href="#section3">Les balises de base</a>
+    <a href="#section4">Tips & bonnes pratiques</a>
+    <a href="#section5">Contact</a>
+
+</footer>
+
+</body>
+</html>
